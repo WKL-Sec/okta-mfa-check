@@ -17,7 +17,7 @@ The tool assumes you have a valid login for OKTA. There is some error checking d
 - Single-Mode - Attempts to authenticate with a single username and password
 - Multi-Mode - Attempts to authenticate with a userfile and passwordfile
 
-The Multi-mode userfile and password file must contain the same amount lines in each file. The script reads the username from the first list and then the password from the first line. If your file is not formatted correctly you will have errors. 
+The Multi-mode userfile and password file must contain the same amount lines in each file. The script reads the username from the first line of the file and then the password from the first line of the password file. If your file is not formatted correctly you will have errors. I have included an example userfile and passwordfile as reference. 
 
 **Example Use (Single-Mode User):**
 ```
@@ -26,7 +26,7 @@ python okta-mfa-check.py -u username -p password -d ./chromedriver -x "https://e
 
 **Example Use (Multi-Mode User):**
 ```
-python okta-mfa-check.py -P userfile -p passwordfile -d ./chromedriver -x "https://example.okta.com"
+python okta-mfa-check.py -P userfile -P passwordfile -d ./chromedriver -x "https://example.okta.com"
 ```
 
 The tool requires a single username and password or a username list and a password list.
@@ -39,3 +39,4 @@ The tool requires a single username and password or a username list and a passwo
 - Add option to enable MFA SMS automatically with Selenium
 - Add support for password spraying
 - Support for additional OKTA MFA options
+- Re-Write Muti-Mode to support 1 file instead of 2
