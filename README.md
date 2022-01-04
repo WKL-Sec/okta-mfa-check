@@ -11,6 +11,8 @@ This tool was created to work after running a password sprayer (CredMaster). Dur
 - Runs as a single thread (Low Detection Rates)
 
 
+### Quick Use ###
+
 **Example Use (Single-Mode User):**
 ```
 python okta-mfa-check.py -u username -p password -d ./chromedriver -x "https://example.okta.com"
