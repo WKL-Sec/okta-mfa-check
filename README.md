@@ -1,2 +1,3 @@
 # OKTA MFA Check
-OKTA MFA Check using Python and Selenium. Tool checks valid OKTA accounts to determine which MFA options are enabled/disabled
+
+Launch a password spray / brute force attach via Amazon AWS passthrough proxies, shifting the requesting IP address for every authentication attempt. This dynamically creates FireProx APIs for more evasive password sprays.
