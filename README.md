@@ -11,6 +11,13 @@ This tool was created to work after running a password sprayer (CredMaster). Dur
 - Runs as a single thread (Low Detection Rates)
 - Works with fireprox and proxy servers
 
+### Install ###
+Script is currently based on Python3. This script has only been tested on OSX. Should work fine on Linux. Windows is an unknown.
+
+Installing Selenium. Check [here](https://selenium-python.readthedocs.io/installation.html) for more info on Selenium install.
+```
+pip install selenium
+```
 
 ### Quick Use ###
 The tool assumes you have a valid login for OKTA. There is some error checking done to help prevent issues but its basic. Selenium will check if there is a bad login and report it back to you. The tool currently supports two (2) modes:
