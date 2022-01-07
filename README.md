@@ -11,8 +11,6 @@ This tool was created to work after running a password sprayer (CredMaster). Dur
 - Runs as a single thread (Low Detection Rates)
 - Works with fireprox and proxy servers
 
-
-<br/>
 <br/>
 
 ### Install ###
