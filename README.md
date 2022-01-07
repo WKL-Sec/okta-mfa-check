@@ -63,3 +63,7 @@ The tool requires a single username and password or a username list and a passwo
 - Add support for password spraying
 - Support for additional OKTA MFA options
 - Re-Write Muti-Mode to support 1 file instead of 2
+
+## Credits
+Ellis Springe ([knavesec](https://twitter.com/knavesec)) - [Credmaster](https://github.com/knavesec/CredMaster)
+
