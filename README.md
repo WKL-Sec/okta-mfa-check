@@ -55,6 +55,11 @@ The tool requires a single username and password or a username list and a passwo
 <br/>
 <br/>
 
+## Password Spraying:
+If your looking to password spray check out [CredMaster](https://github.com/knavesec/CredMaster)
+
+This tool was created for post-exploitation to help determine MFA options for each compromised user. This tool can be turned into a password sprayer that uses Selenium. The goal is to get away from the OKTA API Rate Limit and detection that is very common when using tools like CredMaster.
+
 ## TODO:
 
 - ~Add proxy support option~
@@ -65,5 +70,5 @@ The tool requires a single username and password or a username list and a passwo
 - Re-Write Muti-Mode to support 1 file instead of 2
 
 ## Credits
-- Ellis Springe ([knavesec](https://twitter.com/knavesec)) - [Credmaster](https://github.com/knavesec/CredMaster)
+- Ellis Springe ([knavesec](https://twitter.com/knavesec)) - [CredMaster](https://github.com/knavesec/CredMaster)
 
