@@ -19,7 +19,7 @@ Script is currently based on Python3. This script has only been tested on OSX. S
 pip install selenium
 ```
 Check [here](https://selenium-python.readthedocs.io/installation.html) for more info on Selenium install.
-\
+<br/>
 
 
 **ChromeDriver Download:**
