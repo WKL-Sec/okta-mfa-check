@@ -14,10 +14,17 @@ This tool was created to work after running a password sprayer (CredMaster). Dur
 ### Install ###
 Script is currently based on Python3. This script has only been tested on OSX. Should work fine on Linux. Windows is an unknown.
 
-Installing Selenium. Check [here](https://selenium-python.readthedocs.io/installation.html) for more info on Selenium install.
+**Installing Selenium:**
 ```
 pip install selenium
 ```
+Check [here](https://selenium-python.readthedocs.io/installation.html) for more info on Selenium install.
+
+
+**ChromeDriver Download:**
+Download the Chromedriver from the following URL: https://chromedriver.chromium.org/
+Make sure to match your current chrome version to the driver or you will get an error. Just update Chrome and download newest driver.
+
 
 ### Quick Use ###
 The tool assumes you have a valid login for OKTA. There is some error checking done to help prevent issues but its basic. Selenium will check if there is a bad login and report it back to you. The tool currently supports two (2) modes:
