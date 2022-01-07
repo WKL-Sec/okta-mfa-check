@@ -22,15 +22,13 @@ Check [here](https://selenium-python.readthedocs.io/installation.html) for more 
 <br/>
 <br/>
 
-
 **ChromeDriver Download:**
 
 Download the Chromedriver from the following URL: https://chromedriver.chromium.org/
 
 Make sure to match your current chrome version to the driver or you will get an error. Just update Chrome and download newest driver.
-
-
-
+<br/>
+<br/>
 
 ### Quick Use ###
 The tool assumes you have a valid login for OKTA. There is some error checking done to help prevent issues but its basic. Selenium will check if there is a bad login and report it back to you. The tool currently supports two (2) modes:
