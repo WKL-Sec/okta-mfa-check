@@ -34,7 +34,7 @@ The tool requires a single username and password or a username list and a passwo
 
 ## TODO:
 
-- Add proxy support
+- ~Add proxy support option~
 - Add support for fireprox similar to how credmaster is setup
 - Add option to enable MFA SMS automatically with Selenium
 - Add support for password spraying
