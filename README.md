@@ -13,6 +13,8 @@ This tool was created to work after running a password sprayer (CredMaster). Dur
 
 ### Install ###
 Script is currently based on Python3. This script has only been tested on OSX. Should work fine on Linux. Windows is an unknown.
+<br/>
+<br/>
 
 **Installing Selenium:**
 ```
