@@ -21,10 +21,13 @@ pip install selenium
 Check [here](https://selenium-python.readthedocs.io/installation.html) for more info on Selenium install.
 
 
+
 **ChromeDriver Download:**
 
 Download the Chromedriver from the following URL: https://chromedriver.chromium.org/
 Make sure to match your current chrome version to the driver or you will get an error. Just update Chrome and download newest driver.
+
+
 
 
 ### Quick Use ###
