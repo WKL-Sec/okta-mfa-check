@@ -20,6 +20,7 @@ pip install selenium
 ```
 Check [here](https://selenium-python.readthedocs.io/installation.html) for more info on Selenium install.
 <br/>
+<br/>
 
 
 **ChromeDriver Download:**
