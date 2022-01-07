@@ -11,7 +11,6 @@ This tool was created to work after running a password sprayer (CredMaster). Dur
 - Runs as a single thread (Low Detection Rates)
 - Works with fireprox and proxy servers
 
-<br/>
 
 ### Install ###
 Script is currently based on Python3. This script has only been tested on OSX. Should work fine on Linux. Windows is an unknown.
