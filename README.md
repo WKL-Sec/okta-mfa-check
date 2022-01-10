@@ -55,7 +55,9 @@ The tool requires a single username and password or a username list and a passwo
 <br/>
 <br/>
 
-[![Single-Mode Example Recording](https://github.com/WKL-Sec/okta-mfa-check/blob/media/OKTA-MFA-Check-SingleMode.mov)]
+https://user-images.githubusercontent.com/97109724/148790997-c0d8148c-a7d8-4700-b695-80103b05dcda.mov
+
+
 
 ## Password Spraying:
 If your looking to password sprayer check out [CredMaster](https://github.com/knavesec/CredMaster)
