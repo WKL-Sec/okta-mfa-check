@@ -55,8 +55,12 @@ The tool requires a single username and password or a username list and a passwo
 <br/>
 <br/>
 
+Example of Single-Mode. Uses a username and password. This video has "headless" mode turned off to show you what the script really does.
 https://user-images.githubusercontent.com/97109724/148790997-c0d8148c-a7d8-4700-b695-80103b05dcda.mov
 
+Example of Multi-Mode. Uses a username file and password file. These files have been uploaded as a base for you to start with. The screen recording shows three (3) users, 1 with MFA and 2 without MFA.
+
+https://user-images.githubusercontent.com/97109724/148791567-8ad34f3a-66a3-4546-8fcc-41f1886367a0.mov
 
 
 ## Password Spraying:
