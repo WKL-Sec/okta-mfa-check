@@ -13,9 +13,6 @@ now = datetime.now()
 log_string = now.strftime("%Y-%m-%d-%H-%M-%S")
 outfile = "okta_mfa_check_" + log_string + ".log"
 
-#Custom Submit Button Selenium Setup Var
-#SIGNIN = (By.XPATH, "//input[@value='Sign in']") 
-
 parser = argparse.ArgumentParser()
 usergroup = parser.add_mutually_exclusive_group()
 passgroup = parser.add_mutually_exclusive_group()
