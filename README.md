@@ -54,6 +54,7 @@ python okta-mfa-check.py -P userfile -P passwordfile -d ./chromedriver -x "https
 The tool requires a single username and password or a username list and a password list.
 <br/>
 <br/>
+![Single-Mode Example Recording](../media/OKTA-MFA-Check-SingleMode.mov?raw=true)
 
 ## Password Spraying:
 If your looking to password sprayer check out [CredMaster](https://github.com/knavesec/CredMaster)
