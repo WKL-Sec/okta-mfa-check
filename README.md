@@ -10,6 +10,7 @@ This tool was created to work after running a password sprayer (CredMaster). Dur
 - Helps bypass OKTA API Rate-Limting 
 - Runs as a single thread (Low Detection Rates)
 - Works with fireprox and proxy servers
+- Works against New/Old OKTA Dashboards
 
 
 ## Install ##
@@ -62,7 +63,7 @@ https://user-images.githubusercontent.com/97109724/148791567-8ad34f3a-66a3-4546-
 ## Password Spraying:
 If your looking to password sprayer check out [CredMaster](https://github.com/knavesec/CredMaster)
 
-This tool was created for post-exploitation to help determine MFA options for each compromised user. This tool can be turned into a password sprayer that uses Selenium but it is not currently supported. The goal is to get away from the OKTA API Rate Limit and detection that is very common when using tools like CredMaster.
+This tool was created for post-exploitation to help determine if MFA was enabled/disabled for each compromised user. This tool can be turned into a password sprayer that uses Selenium but it is not currently supported. The goal is to get away from the OKTA API Rate Limit and detection that is very common when using tools like CredMaster.
 
 ## TODO:
 
@@ -70,7 +71,7 @@ This tool was created for post-exploitation to help determine MFA options for ea
 - Add support for fireprox similar to how credmaster is setup
 - Add option to enable MFA SMS automatically with Selenium
 - Add support for password spraying
-- Support for additional OKTA MFA options
+- ~Support for additional OKTA MFA options~
 - Re-Write Muti-Mode to support 1 file instead of 2
 
 ## Credits
